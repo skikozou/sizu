@@ -40,6 +40,46 @@
   .dark .theme-bg-shadow {
     @apply text-[#FF5500];
   }
+
+  .theme-text {
+    @apply text-[#1A1A1A]
+  }
+
+  .dark .theme-text {
+    @apply text-[#F2F2F2]
+  }
+
+  .theme-active {
+    @apply bg-[#D6D6D6]
+  }
+
+  .dark .theme-active {
+    @apply bg-[#7A7A7A]
+  }
+
+  .theme-bg-simple {
+    @apply bg-[#FFFFFF]
+  }
+
+  .dark .theme-bg-simple {
+    @apply bg-[#000000]
+  }
+
+  .theme-text-simple {
+    @apply text-[#000000]
+  }
+
+  .dark .theme-text-simple {
+    @apply text-[#FFFFFF]
+  }
+
+  .theme-content {
+    @apply text-[#404040]
+  }
+
+  .dark .theme-content {
+    @apply text-[#BFBFBF]
+  }
 }
 
 :root {
