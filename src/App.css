@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .theme-background {
+    @apply bg-[#F2F2F2];
+  }
+
+  .dark .theme-background {
+    @apply bg-[#1A1A1A];
+  }
+
+  .theme-maincolor {
+    @apply text-[#F2F2F2];
+  }
+
+  .dark .theme-maincolor {
+    @apply text-[#1A1A1A];
+  }
+
+  .theme-accent {
+    @apply bg-[#F2F2F2];
+  }
+
+  .dark .theme-accent {
+    @apply bg-[#F2F2F2];
+  }
+
+  .theme-shadow {
+    @apply text-[#FF5500];
+  }
+
+  .dark .theme-shadow {
+    @apply text-[#FF5500];
+  }
+
+  .theme-bg-shadow {
+    @apply bg-[#FF5500];
+  }
+
+  .dark .theme-bg-shadow {
+    @apply text-[#FF5500];
+  }
+}
+
+:root {
+  --dot-color: #1A1A1A;
+  --shadow-location: 5px;
+}
+
+.dark {
+  --dot-color: #F2F2F2;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px #7A7A7A;
+}
