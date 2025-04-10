@@ -17,7 +17,7 @@ export default function About() {
               <li><span className="font-semibold">使用言語：</span>Golang / C#</li>
               <li><span className="font-semibold">得意分野：</span>CLI Appの作成</li>
               <li><span className="font-semibold">趣味：</span>BattleField 2042 / Blender</li>
-              <li><span className="font-semibold">最近の活動：</span>ゲーム / コード / モデリング</li>
+              <li><span className="font-semibold">最近の活動：</span>Game, Coding, Modeling</li>
             </ul>
             <p className="text-sm italic text-zinc-400">だいたい気分で動いてる  : )</p>
           </div>
