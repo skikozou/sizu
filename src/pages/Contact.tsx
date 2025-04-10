@@ -1,5 +1,5 @@
 import { DotGrid } from '../components/DotGrid'
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaDiscord, FaYoutube } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaDiscord, FaYoutube } from 'react-icons/fa'
 
 const contacts = [
   {
