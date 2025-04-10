@@ -11,11 +11,11 @@ interface ShadedTextProps {
 		  {characters.map((char, index) => (
 			<div key={index} className="relative">
 			  {/* Main character - now orange */}
-			  <span className="text-9xl font-bold tracking-tight theme-maincolor text-stroke relative z-10">{char}</span>
+			  <span className="text-[12rem] font-bold tracking-tight theme-maincolor text-stroke relative z-10">{char}</span>
   
 			  {/* Shadow for each character - now white */}
 			  <span
-				className="absolute top-[var(--shadow-location)] left-[var(--shadow-location)] text-9xl font-bold tracking-tight theme-shadow z-0"
+				className="absolute top-[var(--shadow-location)] left-[var(--shadow-location)] text-[12rem] font-bold tracking-tight theme-shadow z-0"
 				style={{
 				  display: "block",
 				  position: "absolute",
