@@ -1,4 +1,3 @@
-import { isCookie } from 'react-router-dom';
 import { DotGrid } from '../components/DotGrid'
 import { ShadedText } from '../components/ShadedText'
 import { useState, useEffect } from 'react';
