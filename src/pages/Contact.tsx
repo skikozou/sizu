@@ -15,7 +15,7 @@ const contacts = [
     display: '@skikozou1596',
   },
   {
-    name: 'sizu',
+    name: 'Discord',
     icon: <FaDiscord size={24} />,
     display: '@skikozou1596',
   },
@@ -46,11 +46,11 @@ export default function Contact() {
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="theme-background hover:bg-zinc-200 transition p-5 rounded-lg flex items-center space-x-4"
+                className="theme-background transition p-5 rounded-lg flex items-center space-x-4"
               >
                 <div className="theme-text">{icon}</div>
                 <div>
-                  <div className="text-lg font-semibold theme-text-simple">{name}</div>
+                  <div className="text-lg font-semibold theme-text-simple hover:text-[#FF5500]">{name}</div>
                   <div className="text-sm text-zinc-500">{display}</div>
                 </div>
               </a>
