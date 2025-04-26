@@ -21,6 +21,9 @@ export default function Navbar() {
           <Link to="/contact" className={`hover:underline hover:text-[#FF9763] px-4 py-2 rounded theme-text ${isActive('/contact')}`}>
             Contact
           </Link>
+          <Link to="/link" className={`hover:underline hover:text-[#FF9763] px-4 py-2 rounded theme-text ${isActive('/link')}`}>
+            Link
+          </Link>
         </div>
       </div>
     </div>
