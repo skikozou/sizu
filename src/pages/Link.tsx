@@ -13,6 +13,42 @@ const contacts = [
   },
   {
     type: 'banner',
+    url: 'https://371tti.net/',
+    imgSrc: {
+      light: 'https://371tti.net/banner.png',
+      dark: 'https://371tti.net/banner.png',
+    },
+    alt: 'banner-371tti',
+  },
+  {
+    type: 'banner',
+    url: 'https://akku1139.github.io/',
+    imgSrc: {
+      light: 'https://akku1139.github.io/banners/320x100.png',
+      dark: 'https://akku1139.github.io/banners/320x100.png',
+    },
+    alt: 'banner-akku',
+  },
+  {
+    type: 'banner',
+    url: 'https://takoserver.com/',
+    imgSrc: {
+      light: 'https://info.takos.jp/banner_red.png',
+      dark: 'https://info.takos.jp/banner_red.png',
+    },
+    alt: 'banner-takoserver',
+  },
+  {
+    type: 'banner',
+    url: 'https://newline-crlf.github.io/',
+    imgSrc: {
+      light: 'https://newline-crlf.github.io/CRLF\'s_banner.webp',
+      dark: 'https://newline-crlf.github.io/CRLF\'s_banner.webp',
+    },
+    alt: 'banner-newline-crlf',
+  },
+  {
+    type: 'banner',
     url: 'https://main.skikozou.me/',
     imgSrc: {
       light: 'https://main.skikozou.me/banner.png',
@@ -21,6 +57,21 @@ const contacts = [
     alt: 'banner-sizu',
   },
 ]
+
+/*
+Option
+
+
+  {
+    type: 'banner',
+    url: 'https://main.skikozou.me/',
+    imgSrc: {
+      light: 'https://main.skikozou.me/banner.png',
+      dark: 'https://main.skikozou.me/banner.png',
+    },
+    alt: 'banner-sizu',
+  },
+*/
 
 export default function Link() {
   const [isDark, setIsDark] = useState(false)
@@ -57,7 +108,7 @@ export default function Link() {
 			<div className="theme-bg-simple rounded-lg p-8 max-w-3xl w-full relative">
 			  <div className="absolute inset-0 theme-bg-shadow rounded-lg -z-10 translate-x-[var(--shadow-location)] translate-y-[var(--shadow-location)]" />
 	
-			  <h1 className="text-3xl font-bold text-center mb-8 theme-text-simple">Contact</h1>
+			  <h1 className="text-3xl font-bold text-center mb-8 theme-text-simple">Link Exchange</h1>
 	
 			  {/* SNS パネルエリア */}
 			  <div className="grid grid-cols-2 gap-6">
