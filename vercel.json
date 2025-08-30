@@ -1,16 +1,16 @@
 {
   "functions": {
-    "api/curl.js": {
-      "runtime": "nodejs20.x"
+    "api/index.js": {
+      "runtime": "vercel/node@20.x"
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/curl?path=$1",
+      "destination": "/api/index?path=$1",
       "has": [
         {
-          "type": "header",
+          "type": "header", 
           "key": "user-agent",
           "value": "(?i).*curl.*"
         }
