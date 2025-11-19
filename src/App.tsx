@@ -10,8 +10,8 @@ import './App.css'
 export default function App() {
   return (
     <>
-    <Navbar />
     <ToggleMode />
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />

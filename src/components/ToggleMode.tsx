@@ -30,7 +30,7 @@ export function ToggleMode() {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed bottom-4 right-4 w-12 h-12 rounded-full bg-gray-300 dark:bg-gray-700 text-black dark:text-white flex items-center justify-center shadow-md transition z-11"
+      className="fixed bottom-4 right-4 w-12 h-12 rounded-full bg-gray-300 dark:bg-gray-700 text-black dark:text-white flex items-center justify-center shadow-md transition z-50"
     >
       {isDark ? (
         <img src={DarkIcon} alt="Moon" className="w-6 h-6" />
