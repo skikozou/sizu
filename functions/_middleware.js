@@ -31,6 +31,7 @@ Language: ja-JP
   [1;37m[Twitter][0m   [36mtwitter.com/sizu_any[0m
   [1;37m[Discord][0m   [36m@skikozou1596[0m
   [1;37m[YouTube][0m   [36myoutube.com/@skikozou[0m
+  [1;37m[ Email ][0m   [36mdev@skikozou.me[0m
 
 [1;37m==============================================[0m
 [1;36m              ~ Link Exchange ~[0m
@@ -41,6 +42,7 @@ Language: ja-JP
    [1;37m- _akku_                   [0m [36makku1139.github.io[0m
    [1;37m- tako's / takos.jp        [0m [36mtakoserver.com[0m
    [1;37m- nagisa kazetomari's page.[0m [36mkzng.f5.si[0m
+   [1;37m- ActiveTK.                [0m [36mprofile.activetk.jp[0m
    [1;37m- skikozou                 [0m [36mmain.skikozou.me[0m
 
 Current path: ${url.pathname}

@@ -49,6 +49,15 @@ const contacts = [
   },
   {
     type: 'banner',
+    url: 'https://profile.activetk.jp/',
+    imgSrc: {
+      light: '',
+      dark: '',
+    },
+    alt: 'banner-activetk.',
+  },
+  {
+    type: 'banner',
     url: 'https://main.skikozou.me/',
     imgSrc: {
       light: 'https://main.skikozou.me/banner.png',
@@ -60,7 +69,6 @@ const contacts = [
 
 /*
 Option
-
 
   {
     type: 'banner',
@@ -111,24 +119,23 @@ export default function Link() {
 			  <h1 className="text-3xl font-bold text-center mb-8 theme-text-simple">Link Exchange</h1>
 	
 			  {/* SNS パネルエリア */}
-			  <div className="grid grid-cols-2 gap-6">
-				{contacts.map(({ url, imgSrc, alt }) => (
-					<a
-					key={url}
-					href={url}
-					target="_blank"
-					rel="noopener noreferrer"
-					className="theme-background transition rounded-lg flex items-center justify-center relative overflow-hidden"
-					>
-					{/* ダークモードに応じて画像を動的に切り替え */}
-					<img
-						src={isDark ? imgSrc.dark : imgSrc.light}
-						alt={alt}
-						className="w-full h-full object-contain transition-all" // 画像が要素内に収まるように
-					/>
-					</a>
-				))}
-			  </div>
+			  <div className="grid grid-cols-2 grid-rows-2 gap-6">
+          {contacts.map(({ url, imgSrc, alt }, i) => (
+            <a
+              key={url}
+              href={url}
+              className={`theme-background transition rounded-lg flex items-center justify-center relative overflow-hidden
+               ${i === contacts.length - 1 ? "justify-self-center col-span-2" : ""}
+              `}
+            >
+             <img
+               src={isDark ? imgSrc.dark : imgSrc.light}
+                alt={alt}
+                className="w-full h-full object-contain transition-all"
+              />
+            </a>
+          ))}
+        </div>
 			</div>
 		  </div>
 		</div>
