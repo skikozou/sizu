@@ -36,12 +36,12 @@ Language: ja-JP
 [1;36m              ~ Link Exchange ~[0m
 [1;37m==============================================[0m
 
-   [1;37m- t3tra.dev        [0m [36mt3tra.dev[0m
-   [1;37m- 371tti.net       [0m [36m371tti.net[0m
-   [1;37m- _akku_           [0m [36makku1139.github.io[0m
-   [1;37m- tako's / takos.jp[0m [36mtakoserver.com[0m
-   [1;37m- newline-crlf     [0m [36mnewline-crlf.github.io[0m
-   [1;37m- skikozou         [0m [36mmain.skikozou.me[0m
+   [1;37m- t3tra.dev                [0m [36mt3tra.dev[0m
+   [1;37m- 371tti.net               [0m [36m371tti.net[0m
+   [1;37m- _akku_                   [0m [36makku1139.github.io[0m
+   [1;37m- tako's / takos.jp        [0m [36mtakoserver.com[0m
+   [1;37m- nagisa kazetomari's page.[0m [36mkzng.f5.si[0m
+   [1;37m- skikozou                 [0m [36mmain.skikozou.me[0m
 
 Current path: ${url.pathname}
 Requested at: ${new Date().toISOString()}
