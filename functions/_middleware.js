@@ -5,26 +5,46 @@ export async function onRequest(context) {
   // curlリクエストの検出
   if (userAgent.toLowerCase().includes('curl')) {
     const url = new URL(request.url)
-    const curlResponse = `Hello from sizu!
+    const curlResponse = `
+[1;37m==============================================[0m
+[1;36m                 ~ About Me ~[0m
+[1;37m==============================================[0m
 
-This is skikozou's personal website.
-Visit ${url.origin} in your browser for the full experience.
+[1;32mskikozou[0m ([1;35msizu[0m)
 
-About:
-- Name: skikozou (sizu)
-- Occupation: Student
-- Languages: Golang / C#
-- Hobbies: BattleField 2042 / Blender
+  [1;34m職業    [0m: 学生
+  [1;34m使用言語[0m: [36mGolang[0m / [33mC#[0m
+  [1;34m得意分野[0m: CLI Appの作成
+  [1;34m趣味    [0m: [35mBattleField 2042[0m / Blender
+  [1;34m最近の活動[0m: Game, Coding, Modeling
 
-Contact:
-- GitHub: https://github.com/skikozou
-- Twitter: @skikozou1596
-- YouTube: https://youtube.com/@skikozou
-- Discord: @skikozou1596
+[2mだいたい気分で動いてる :)[0m
+
+[1;37m==============================================[0m
+[1;36m                 ~ Contact ~[0m
+[1;37m==============================================[0m
+
+  [1;37m[GitHub ][0m   [36mgithub.com/skikozou[0m
+  [1;37m[Twitter][0m   [36mtwitter.com/sizu_any[0m
+  [1;37m[Discord][0m   [36m@skikozou1596[0m
+  [1;37m[YouTube][0m   [36myoutube.com/@skikozou[0m
+
+[1;37m==============================================[0m
+[1;36m              ~ Link Exchange ~[0m
+[1;37m==============================================[0m
+
+   [1;37m- t3tra.dev        [0m [36mt3tra.dev[0m
+   [1;37m- 371tti.net       [0m [36m371tti.net[0m
+   [1;37m- _akku_           [0m [36makku1139.github.io[0m
+   [1;37m- tako's / takos.jp[0m [36mtakoserver.com[0m
+   [1;37m- newline-crlf     [0m [36mnewline-crlf.github.io[0m
+   [1;37m- skikozou         [0m [36mmain.skikozou.me[0m
 
 Current path: ${url.pathname}
 Requested at: ${new Date().toISOString()}
-Server: Cloudflare Pages
+Server: Cloudflare
+
+Have a fun!
 `
 
     return new Response(curlResponse, {

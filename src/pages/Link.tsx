@@ -40,10 +40,10 @@ const contacts = [
   },
   {
     type: 'banner',
-    url: 'https://newline-crlf.github.io/',
+    url: 'https://kzng.f5.si/',
     imgSrc: {
-      light: 'https://newline-crlf.github.io/CRLF\'s_banner.webp',
-      dark: 'https://newline-crlf.github.io/CRLF\'s_banner.webp',
+      light: '/NagiBanner.webp',
+      dark: '/NagiBanner.webp',
     },
     alt: 'banner-newline-crlf',
   },
