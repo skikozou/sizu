@@ -6,6 +6,9 @@ export async function onRequest(context) {
   if (userAgent.toLowerCase().includes('curl')) {
     const url = new URL(request.url)
     const curlResponse = `
+Format: UTF-8
+Language: ja-JP
+
 [1;37m==============================================[0m
 [1;36m                 ~ About Me ~[0m
 [1;37m==============================================[0m
@@ -44,7 +47,7 @@ Current path: ${url.pathname}
 Requested at: ${new Date().toISOString()}
 Server: Cloudflare
 
-Have a fun!
+Have a good one.
 `
 
     return new Response(curlResponse, {
