@@ -51,8 +51,8 @@ const contacts = [
     type: 'banner',
     url: 'https://profile.activetk.jp/',
     imgSrc: {
-      light: '',
-      dark: '',
+      light: '/activetk.png',
+      dark: '/activetk.png',
     },
     alt: 'banner-activetk.',
   },
