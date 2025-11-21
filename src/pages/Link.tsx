@@ -45,7 +45,7 @@ const contacts = [
       light: '/NagiBanner.webp',
       dark: '/NagiBanner.webp',
     },
-    alt: 'banner-newline-crlf',
+    alt: 'banner-nagi',
   },
   {
     type: 'banner',
@@ -60,8 +60,8 @@ const contacts = [
     type: 'banner',
     url: 'https://main.skikozou.me/',
     imgSrc: {
-      light: 'https://main.skikozou.me/banner.png',
-      dark: 'https://main.skikozou.me/banner.png',
+      light: '/banner.png',
+      dark: '/banner.png',
     },
     alt: 'banner-sizu',
   },
@@ -125,7 +125,7 @@ export default function Link() {
               key={url}
               href={url}
               className={`theme-background transition rounded-lg flex items-center justify-center relative overflow-hidden
-               ${i === contacts.length - 1 ? "justify-self-center col-span-2" : ""}
+               ${i === contacts.length - 1 ? "justify-self-center" : ""}
               `}
             >
              <img
